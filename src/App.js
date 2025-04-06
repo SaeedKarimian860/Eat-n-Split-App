@@ -184,6 +184,7 @@ function FormSplitBill({ selectedFriend }) {
         }
       />
 
+
       <label>👩🏽‍🤝‍👨🏻 {selectedFriend.name}'s Expense</label>
       <input type="text" disabled value={paidByFriend} />
 
