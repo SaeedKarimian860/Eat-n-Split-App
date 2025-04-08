@@ -61,7 +61,6 @@ export default function App() {
     setSelectedFriend(null);
   }
 
-  
   return (
     <div className="app">
       <div className="sidebar">
