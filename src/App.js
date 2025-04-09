@@ -70,6 +70,7 @@ export default function App() {
           onSelection={handleSelection}
         />
 
+
         {showAddFriend && <FormAddFriend onAddFriend={handleAddFriend} />}
 
         <Button onClick={handleShowAddFriend}>
